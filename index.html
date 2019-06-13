@@ -33,6 +33,24 @@
   </script>
   </head>
 <body style="margin : 0px; overflow: hidden;">
+  <main class="main">
+    <div id="splashScreen" class="AR-tip" style="display:none">
+      <p><strong>Hi there!</strong> <br> Once your camera loads, click "Start" and aim your device at the black square.
+        <div class="instructions">
+          <a><img src="https://cdn.glitch.com/5a8c2940-8667-40d7-9b93-b9e8050d72d1%2FNewInstruction.png?1528856565282" /></a>
+        </div>
+
+      </p>
+      <div class="gotit btn custom-button">Start</div>
+      <p>
+        <br><cite>*If your load takes longer than 30 seconds or you see black 3D images, try Chrome on desktop ;)</cite>
+    </p>
+    </div>
+    <div class="AR-tip" id="noMedia" style="display:none">
+    </div>
+
+  </main>
+
   
   <a-scene embedded arjs="sourceType: webcam;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" aframe-inspector-removed-embedded="undefined"><canvas class="a-canvas" data-aframe-canvas="true" width="300" height="150"></canvas>
 
